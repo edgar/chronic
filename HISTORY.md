@@ -1,3 +1,12 @@
+# --- Begin gitlab-chronic changes ---
+
+# 0.10.3 / 2019-11-23
+
+* Fix Daylight Savings parsing (https://gitlab.com/gitlab-org/gitlab-chronic/merge_requests/3)
+* Add .gitlab-ci.yml (https://gitlab.com/gitlab-org/gitlab-chronic/merge_requests/1)
+
+# --- End gitlab-chronic changes ---
+
 # 0.10.2 / 2013-09-09
 
 * Fix 1.8.7 support (due to be dropped in 0.11.0)
