@@ -1,11 +1,15 @@
-# --- Begin gitlab-chronic changes ---
+## --- Begin gitlab-chronic changes ---
+
+# 0.10.4 / 2019-11-24
+
+* Rename chronic -> gitlab-chronic (https://gitlab.com/gitlab-org/gitlab-chronic/merge_requests/5)
 
 # 0.10.3 / 2019-11-23
 
 * Fix Daylight Savings parsing (https://gitlab.com/gitlab-org/gitlab-chronic/merge_requests/3)
 * Add .gitlab-ci.yml (https://gitlab.com/gitlab-org/gitlab-chronic/merge_requests/1)
 
-# --- End gitlab-chronic changes ---
+## --- End gitlab-chronic changes ---
 
 # 0.10.2 / 2013-09-09
 
