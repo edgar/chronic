@@ -6,7 +6,7 @@ def version
 end
 
 def do_test
-  require 'chronic'
+  require 'gitlab-chronic'
   $:.unshift './test'
   Dir.glob('test/test_*.rb').each { |t| require File.basename(t) }
 end
