@@ -62,7 +62,7 @@ desc 'Build a gem from the gemspec'
 task :build do
   FileUtils.mkdir_p 'pkg'
   sh 'gem build chronic.gemspec'
-  FileUtils.mv("./chronic-#{version}.gem", "pkg")
+  FileUtils.mv("./gitlab-chronic-#{version}.gem", "pkg")
 end
 
 task :default => :test
