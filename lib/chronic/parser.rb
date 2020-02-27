@@ -172,6 +172,10 @@ module Chronic
     def validate_options!(options)
       given = options.keys.map(&:to_s).sort
       allowed = DEFAULT_OPTIONS.keys.map(&:to_s).sort
+      allowed << "zone"
+puts "************************"
+puts "zone: #{options[:zone]}"
+puts "************************"
       non_permitted = given - allowed
       raise ArgumentError, "Unsupported option(s): #{non_permitted.join(', ')}" if non_permitted.any?
     end
